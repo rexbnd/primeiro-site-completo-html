@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table tr:hover td{
+            background-color: lightgray;
+        }
+
+        table tr:nth-child(even) td{
+            background-color: rgb(176, 214, 201);
+            
+        }       
+    </style>    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <h1>Menu:</h1>
+            <ul>
+                <li><a href="template.html">Página Inicial</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="atendimento.html">Horários de atendimento</a></li>
+                <li><a href="contact.html">Entre em contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="https://static.vecteezy.com/system/resources/previews/009/342/688/original/clock-icon-clipart-design-illustration-free-png.png" width="150" style="vertical-align: middle; float: left;"><img src="https://vetus.com.br/universidade/wp-content/uploads/2018/07/como-montar-uma-clinica-veterinaria.png" width="200px" height="150px" style="vertical-align: middle; float: right;">
+            </div>
+    
+            <div class="content">
+               <h1> Horários de Atendimento</h1>
+               <p>Nós oferecemos serviços de <strong>Raio-X</strong>, <strong>Fisioterapia</strong>, <strong>Quimioterapia</strong> e também atendemos como <strong>Emergência</strong>.</p><br>
+                <table border="1" >
+                    <thead>
+                        <tr style="background-color: black; color: white;">
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados e Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody>    
+                        <tr>
+                            <td>Raio-X</td>
+                            <td>08 - 19h</td>
+                            <td>08 - 14h</td>
+                            <td>08 - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Fisioterapia</td>
+                            <td>08 - 19h</td>
+                            <td>08 - 14h</td>
+                            <td>08 - 11h</td>
+                        </tr>
+                        <tr>
+                            <td>Quimioterapia</td>
+                            <td>08 - 19h</td>
+                            <td>08 - 19h</td>
+                            <td>08 - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Emergência</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>    
+                </table>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h2><strong>Contato:</strong><br></h2>
+                
+                Rua dos animais, N°123 <br>
+                <br>
+                <span mar>+55 (xx) xxxxx-xxxx</span>            Rua dos animais, N°123 <br>
+                <br>
+                clinicadio@email.com
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
